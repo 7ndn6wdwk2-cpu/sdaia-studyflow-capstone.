@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#132b27">
+<title>StudyFlow AI | مشروع سدايا الختامي</title>
+<style>
+:root{--bg:#f4f5f1;--card:#fff;--ink:#172c29;--muted:#65736f;--line:#dfe5df;--green:#1c5a4d;--mint:#dcece4;--gold:#e9bd65;--danger:#9b3939;--shadow:0 12px 35px rgba(19,43,39,.07)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.75}
+header{background:linear-gradient(125deg,#102b27,#225b4d);color:#fff;padding:30px max(20px,calc((100% - 1120px)/2)) 34px}
+.top{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.brand{font-weight:800;letter-spacing:.2px}.tag{border:1px solid #ffffff55;border-radius:999px;padding:5px 12px;font-size:12px;color:#e5f0eb}
+h1{font-size:clamp(28px,4vw,42px);line-height:1.25;margin:25px 0 12px;max-width:760px}header p{max-width:740px;color:#dbe8e1;margin:0}
+.wrap{max-width:1120px;margin:auto;padding:24px 18px 60px}.notice{background:#fff8e7;border:1px solid #ead9a9;padding:12px 15px;border-radius:12px;color:#6e531c;margin-bottom:20px;font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:20px}.stat,.panel{background:var(--card);border:1px solid var(--line);border-radius:17px;box-shadow:var(--shadow)}.stat{padding:16px}.stat small{display:block;color:var(--muted)}.stat strong{font-size:23px}
+.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:start}.panel{padding:20px;margin-bottom:18px}.panel h2{font-size:19px;margin:0 0 4px}.sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+label{display:block;font-size:13px;font-weight:700;margin:13px 0 6px}input,textarea,select{width:100%;border:1px solid #cfd9d2;border-radius:10px;padding:11px 12px;font:inherit;background:#fff;color:var(--ink)}textarea{min-height:145px;resize:vertical}input:focus,textarea:focus{outline:2px solid #a4c9b7;border-color:var(--green)}
+button,.button{border:0;border-radius:10px;background:var(--green);color:#fff;padding:10px 15px;font:inherit;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:7px;text-decoration:none}button.secondary{background:#eaf1ed;color:var(--green);border:1px solid #d5e3da}button.outline{background:#fff;color:var(--green);border:1px solid #b7cec1}button:disabled{opacity:.45;cursor:not-allowed}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.result{white-space:pre-wrap;background:#f7f9f6;border:1px solid var(--line);border-radius:12px;padding:14px;min-height:80px;font-size:14px}
+.timer{font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:1px}.timerrow{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.pill{font-size:11px;border-radius:999px;background:var(--mint);color:var(--green);padding:4px 9px;font-weight:700}
+.checks{display:grid;gap:9px}.checks label{display:flex;gap:9px;align-items:flex-start;font-weight:400;margin:0}.checks input{width:auto;margin-top:7px;accent-color:var(--green)}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:right;padding:9px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-weight:700}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:18px}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.panel{padding:16px}header{padding:24px 18px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="top"><div class="brand">StudyFlow AI</div><div class="tag">المشروع الختامي · أكاديمية سدايا</div></div>
+  <h1>من محاضرة طويلة إلى ملخص واختبار قابلين للمراجعة</h1>
+  <p>نموذج أولي لمسار تعلّم يساعد الطالب على تنظيم ملاحظاته، وتجهيز أمر واضح لتطبيق ذكاء اصطناعي معتمد، ثم مراجعة الناتج بدل الاعتماد عليه دون تحقق.</p>
+</header>
+<main class="wrap">
+  <div class="notice"><strong>مهم:</strong> لا تضعي بيانات شخصية أو مواد سرية. هذه الأداة لا تتصل بنموذج ذكاء اصطناعي تلقائيًا؛ بل تنشئ أمرًا جاهزًا لتنسخيه إلى التطبيق المعتمد لديك، ثم تلصقي الناتج هنا للمراجعة. سجّلي أزمنة حقيقية قبل تقديم أي أرقام للمشرف.</div>
+  <div class="stats">
+    <div class="stat"><small>المسار</small><strong>مسار تعلّم</strong></div>
+    <div class="stat"><small>مراحل الاستخدام</small><strong>4 خطوات</strong></div>
+    <div class="stat"><small>حالات التحقق</small><strong>3 حالات</strong></div>
+  </div>
+  <div class="grid">
+    <section>
+      <div class="panel">
+        <h2>١. جهّزي ملاحظات المحاضرة</h2><p class="sub">استخدمي نصًا تجريبيًا أو ملاحظات دراسية لا تحتوي بيانات خاصة.</p>
+        <label for="topic">اسم الموضوع</label><input id="topic" value="مقدمة في أمن المعلومات" placeholder="مثال: إدارة قواعد البيانات">
+        <label for="notes">الملاحظات أو نص المحاضرة</label>
+        <textarea id="notes" placeholder="الصقي هنا الملاحظات الدراسية...">أمن المعلومات يهدف إلى حماية سرية المعلومات وسلامتها وتوافرها. السرية تعني منع الوصول غير المصرح به. السلامة تعني الحفاظ على دقة البيانات وعدم تعديلها دون تصريح. التوافر يعني إتاحة المعلومات والأنظمة للمستخدمين المصرح لهم عند الحاجة. من الضوابط: كلمات مرور قوية، المصادقة متعددة العوامل، النسخ الاحتياطي، وتحديث الأنظمة.</textarea>
+        <div class="actions"><button id="makePrompt">إنشاء أمر المذاكرة</button><button class="secondary" id="clearNotes">مسح المدخلات</button></div>
+      </div>
+      <div class="panel">
+        <h2>٢. الأمر الجاهز للتطبيق المعتمد</h2><p class="sub">انسخي الأمر إلى تطبيق الذكاء الاصطناعي المسموح به في الدورة، ثم راجعي الناتج قبل استخدامه.</p>
+        <div id="promptOut" class="result">سيظهر الأمر هنا بعد الضغط على «إنشاء أمر المذاكرة».</div>
+        <div class="actions"><button id="copyPrompt">نسخ الأمر</button></div>
+      </div>
+      <div class="panel">
+        <h2>٣. الصقي الناتج للمراجعة</h2><p class="sub">الصقي الملخص أو الأسئلة التي أنشأها التطبيق، ثم استخدمي قائمة التحقق.</p>
+        <label for="aiOutput">ناتج تطبيق الذكاء الاصطناعي</label><textarea id="aiOutput" placeholder="الصقي الناتج هنا بعد مراجعته..."></textarea>
+        <div class="checks" style="margin-top:12px">
+          <label><input type="checkbox" class="reviewCheck"> قارنت الملخص بالملاحظات الأصلية.</label>
+          <label><input type="checkbox" class="reviewCheck"> تحققت من المصطلحات ولم أجد معلومة مضافة بلا مصدر.</label>
+          <label><input type="checkbox" class="reviewCheck"> راجعت الأسئلة والإجابات قبل المذاكرة.</label>
+        </div>
+        <div class="actions"><button id="reviewBtn">فحص اكتمال المراجعة</button><button class="secondary" id="copyOutput">نسخ الناتج</button></div>
+        <div id="reviewStatus" class="result" style="margin-top:12px">لم يبدأ الفحص بعد.</div>
+      </div>
+    </section>
+    <aside>
+      <div class="panel">
+        <h2>مؤقّت قياس الوقت</h2><p class="sub">استخدميه لقياس المهمة كاملة، بما فيها المراجعة والتصحيح. سجلي الزمن قبل استخدام المسار وبعده.</p>
+        <div class="timerrow"><div id="clock" class="timer">00:00</div><span id="timerState" class="pill">متوقف</span></div>
+        <div class="actions"><button id="startTimer">بدء</button><button class="secondary" id="pauseTimer">إيقاف</button><button class="outline" id="resetTimer">تصفير</button></div>
+        <label for="trialLabel">وصف القياس</label><input id="trialLabel" placeholder="مثال: قبل استخدام المسار - المحاولة 1">
+        <div class="actions"><button id="saveTrial">حفظ القياس</button><button class="secondary" id="downloadTrials">تصدير القياسات CSV</button></div>
+        <div id="trialStatus" class="sub" style="margin-top:10px">لم تُحفظ قياسات في هذه الجلسة.</div>
+      </div>
+      <div class="panel">
+        <h2>سجل القياسات في هذه الجلسة</h2>
+        <p class="sub">البيانات هنا مؤقتة في الصفحة الحالية. صدّري CSV للاحتفاظ بها.</p>
+        <div style="overflow-x:auto"><table><thead><tr><th>الوصف</th><th>الوقت</th><th>الإجراء</th></tr></thead><tbody id="trialRows"><tr><td colspan="3">لا توجد قياسات بعد.</td></tr></tbody></table></div>
+      </div>
+      <div class="panel">
+        <h2>اختبارات سريعة</h2><p class="sub">وثّقي النتيجة بعد تنفيذ كل حالة فعليًا.</p>
+        <div class="checks">
+          <label><input type="checkbox" class="testCheck"> نموذجية: ملاحظات مرتبة وواضحة.</label>
+          <label><input type="checkbox" class="testCheck"> فوضوية: ملاحظات مكررة أو بها أخطاء إملائية.</label>
+          <label><input type="checkbox" class="testCheck"> حدّية: مدخل فارغ أو قصير جدًا؛ يجب ألا نخترع محتوى.</label>
+        </div>
+        <div class="actions"><button class="secondary" id="testSummary">عرض حالة الاختبارات</button></div>
+        <div id="testStatus" class="result" style="margin-top:12px">لم تُحدّد حالات الاختبار بعد.</div>
+      </div>
+    </aside>
+  </div>
+  <footer>StudyFlow AI · نموذج تعليمي تجريبي · يجب مراجعة المخرجات بشريًا قبل الاعتماد عليها.</footer>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let startedAt=null, elapsed=0, interval=null, trials=[];
+function fmt(ms){let s=Math.floor(ms/1000),m=Math.floor(s/60);s%=60;return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0')}
+function currentElapsed(){return elapsed+(startedAt?Date.now()-startedAt:0)}
+function drawClock(){$('clock').textContent=fmt(currentElapsed())}
+$('startTimer').onclick=()=>{if(!startedAt){startedAt=Date.now();$('timerState').textContent='يعمل';interval=setInterval(drawClock,250)}};
+$('pauseTimer').onclick=()=>{if(startedAt){elapsed+=Date.now()-startedAt;startedAt=null;clearInterval(interval);interval=null;drawClock();$('timerState').textContent='متوقف'}};
+$('resetTimer').onclick=()=>{startedAt=null;elapsed=0;clearInterval(interval);interval=null;drawClock();$('timerState').textContent='تم التصفير'};
+$('makePrompt').onclick=()=>{
+ const topic=$('topic').value.trim(), notes=$('notes').value.trim();
+ const prompt=`أنت مساعد مذاكرة دقيق. ساعدني في التعلّم ولا تحلّ عني ولا تضف معلومات من خارج النص.\nالموضوع: ${topic||'غير محدد'}\n\nالملاحظات:\n${notes||'[لا توجد ملاحظات]'}\n\nالمطلوب:\n1) لخّص النص في 5-7 نقاط مرتبة، مع الحفاظ على المعنى.\n2) استخرج المصطلحات وتعريفاتها كما وردت فقط.\n3) أنشئ 5 أسئلة تدريبية متنوعة، وأخفِ الإجابات في قسم منفصل.\n4) اذكر أي جملة غامضة أو معلومة تحتاج تحققًا بدل تخمينها.\n5) لا تخترع حقائق ولا تنسب معلومة إلى مصدر غير موجود. إذا كان النص فارغًا أو غير كافٍ، صرّح بذلك واطلب مادة أوضح.`;
+ $('promptOut').textContent=prompt;
+};
+$('clearNotes').onclick=()=>{$('topic').value='';$('notes').value='';$('promptOut').textContent='سيظهر الأمر هنا بعد الضغط على «إنشاء أمر المذاكرة».'};
+$('copyPrompt').onclick=async()=>{let t=$('promptOut').textContent;if(!t||t.startsWith('سيظهر الأمر'))return;try{await navigator.clipboard.writeText(t);$('promptOut').textContent=t+'\n\n[تم طلب النسخ؛ إذا لم يعمل النسخ، حددي النص وانسخيه يدويًا.]'}catch(e){alert('تعذر النسخ التلقائي. حددي الأمر وانسخيه يدويًا.')}};
+$('copyOutput').onclick=async()=>{let t=$('aiOutput').value;try{await navigator.clipboard.writeText(t);alert('تم نسخ النص إذا سمح المتصفح بذلك.')}catch(e){alert('حددي النص وانسخيه يدويًا.')}};
+$('reviewBtn').onclick=()=>{let checks=[...document.querySelectorAll('.reviewCheck')],done=checks.filter(c=>c.checked).length,has=$('aiOutput').value.trim().length>0;
+ $('reviewStatus').textContent=`اكتمال قائمة المراجعة: ${done} من ${checks.length}.\nالناتج موجود: ${has?'نعم':'لا'}.\n${done===3&&has?'اكتملت القائمة؛ هذا لا يضمن صحة المحتوى، قارني التفاصيل بالمصدر الأصلي.':'أكملي البنود المتبقية ولا تعتمدي على الناتج قبل التحقق.'}`;
+};
+function renderTrials(){let tbody=$('trialRows');tbody.innerHTML='';if(!trials.length){tbody.innerHTML='<tr><td colspan="3">لا توجد قياسات بعد.</td></tr>';return}
+ trials.forEach((t,i)=>{let tr=document.createElement('tr');let a=document.createElement('td'),b=document.createElement('td'),c=document.createElement('td'),btn=document.createElement('button');a.textContent=t.label;b.textContent=fmt(t.ms);btn.textContent='حذف';btn.className='secondary';btn.onclick=()=>{trials.splice(i,1);renderTrials()};c.appendChild(btn);tr.append(a,b,c);tbody.appendChild(tr)});
+ $('trialStatus').textContent=`عدد القياسات المحفوظة في هذه الجلسة: ${trials.length}. صدّريها قبل إغلاق الصفحة.`;
+}
+$('saveTrial').onclick=()=>{let label=$('trialLabel').value.trim();if(!label){alert('اكتبي وصفًا للقياس أولًا.');return}if(currentElapsed()===0){alert('شغّلي المؤقت وقيسي المهمة أولًا.');return}trials.push({label,ms:currentElapsed()});$('trialLabel').value='';renderTrials()};
+$('downloadTrials').onclick=()=>{if(!trials.length){alert('لا توجد قياسات لتصديرها.');return}let csv='description,seconds,minutes\\n'+trials.map(t=>'"'+t.label.replace(/"/g,'""')+'",'+(t.ms/1000).toFixed(1)+','+(t.ms/60000).toFixed(2)).join('\\n');let blob=new Blob(['\\ufeff'+csv],{type:'text/csv;charset=utf-8;'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='studyflow-measurements.csv';a.click();URL.revokeObjectURL(url)};
+$('testSummary').onclick=()=>{let cs=[...document.querySelectorAll('.testCheck')],n=cs.filter(c=>c.checked).length;$('testStatus').textContent=`حالات تم وضع علامة عليها: ${n} من 3.\nتذكير: وضع علامة لا يعني نجاح الاختبار. اكتبي النتيجة الفعلية والملاحظة في docs/project-board.md بعد التجربة.`};
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+description,seconds,minutes,notes
+baseline_trial_1,,,Measure full task including review and corrections
+ai_trial_1,,,Use same task scope and record full task
+ai_trial_2,,,Use same task scope and record full task
