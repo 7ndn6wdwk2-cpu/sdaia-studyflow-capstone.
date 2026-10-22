@@ -85,4 +85,8 @@
 ## مواد العرض
 - رابط الأداة: [https://7ndn6wdwk2-cpu.github.io/sdaia-studyflow-capstone./]
 - رابط المستودع: [https://github.com/7ndn6wdwk2-cpu/sdaia-studyflow-capstone.]
-- صور شاشة: []
+- صور شاشة: [
+  "الحالة_النموذجية.png",
+  "حالة_الملاحظات_المكررة.jpeg",
+  "حالة_المدخل_الفارغ.png"
+  ]  
